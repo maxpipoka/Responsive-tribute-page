@@ -9,14 +9,22 @@
 html{
     margin: 0;
     padding: 0;
-
 }
 
 body{
     background-color: #FFFFFF;
-    color: #2d4059
+    color: #2d4059;
 }
 
+#container{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
 #title{
     font-size: 5em;
+    
+}
+
+#img-div{
 }
