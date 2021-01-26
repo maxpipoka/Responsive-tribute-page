@@ -16,15 +16,11 @@ body{
     color: #2d4059;
 }
 
-#container{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
+h1{
+    font-size: 5rem;
 }
-#title{
-    font-size: 5em;
+#main{
+    font-family: 'Playfair Display', serif;
+    text-align: center;
     
-}
-
-#img-div{
 }
