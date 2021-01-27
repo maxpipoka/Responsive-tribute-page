@@ -27,12 +27,17 @@ h1{
     font-size: 5rem;
 }
 
+h2{
+    font-weight: lighter;
+}
+
 p{
     margin-top: 20px;
 }
 
 a{
 color: #EA5455;
+
 }
 
 img{
@@ -40,9 +45,9 @@ img{
     box-shadow:  10px 5px 5px #F6F6F6;
 }
 
-/* br{
-    margin-bottom: 2rem;
-} */
+footer{
+    margin: 2rem;
+}
 
 
 #main{
@@ -60,8 +65,12 @@ img{
 }
 
 #tribute-info{
+    margin: 1rem;
+    font-style: italic;
     background-color: lightgray;
     color: black
+    
+    
 }
 
 .container{
@@ -79,9 +88,10 @@ img{
     color: #FFFFFF;
     text-align: justify;
     padding: 1rem;
-    border-radius: 10px;
-    margin-left: 1rem;
-    margin-right: 1rem;
+    border-radius: 5px;
+    margin: 1rem;
+    /* margin-left: 1rem;
+    margin-right: 1rem; */
 
 }
 
@@ -89,6 +99,7 @@ img{
     display: flex;
     flex-flow: row wrap;
     justify-content: flex-end;
+    align-items: stretch;
     align-content: center;
 
 }
@@ -97,9 +108,11 @@ img{
     background-color: #EA5455;
     color: #ffffff;
     text-align: center;
-    margin: 1rem;
+    margin-left: 0.5rem;
+    margin-right: 0.5rem;
     width: 5rem;
     border-radius: 0 0 5px 5px;
+    
 }
 
 .full-width{
@@ -109,4 +122,13 @@ img{
     margin-left: -50vw;
     margin-right: -50vw;
     width: 100vw;
+}
+
+.top-button{
+    position: fixed;
+    bottom: 1rem;
+    right: 1rem;
+    width: 4rem;
+    height: 2rem;
+    border-radius: 20%;
 }
