@@ -15,6 +15,7 @@
 html{
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body{
@@ -39,9 +40,9 @@ img{
     box-shadow:  10px 5px 5px #F6F6F6;
 }
 
-br{
+/* br{
     margin-bottom: 2rem;
-}
+} */
 
 
 #main{
@@ -58,17 +59,47 @@ br{
     margin-top: 50px;
 }
 
-#notas{
+#tribute-info{
+    background-color: lightgray;
+    color: black
+}
+
+.container{
     display:flex;
     flex-flow: column wrap;
     align-items: flex-start;
-    justify-content: flex-start;
-    text-align: justify;
-    margin-left: 2rem;
-    margin-right: 2rem;
-    padding: 1rem;
+    margin: 0;
+    padding: 0;
     background-color: #F6F6F6;
 
+}
+
+.item{
+    background-color: #2d4059;
+    color: #FFFFFF;
+    text-align: justify;
+    padding: 1rem;
+    border-radius: 10px;
+    margin-left: 1rem;
+    margin-right: 1rem;
+
+}
+
+.navigation{
+    display: flex;
+    flex-flow: row wrap;
+    justify-content: flex-end;
+    align-content: center;
+
+}
+
+.nav-item{
+    background-color: #EA5455;
+    color: #ffffff;
+    text-align: center;
+    margin: 1rem;
+    width: 5rem;
+    border-radius: 0 0 5px 5px;
 }
 
 .full-width{
