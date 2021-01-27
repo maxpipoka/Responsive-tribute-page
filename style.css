@@ -38,6 +38,12 @@ img{
     max-width: 100%;
     box-shadow:  10px 5px 5px #F6F6F6;
 }
+
+br{
+    margin-bottom: 2rem;
+}
+
+
 #main{
     font-family: 'Playfair Display', serif;
     text-align: center;
@@ -50,6 +56,19 @@ img{
 
 #tribute-link{
     margin-top: 50px;
+}
+
+#notas{
+    display:flex;
+    flex-flow: column wrap;
+    align-items: flex-start;
+    justify-content: flex-start;
+    text-align: justify;
+    margin-left: 2rem;
+    margin-right: 2rem;
+    padding: 1rem;
+    background-color: #F6F6F6;
+
 }
 
 .full-width{
